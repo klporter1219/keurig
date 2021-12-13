@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+/* app bar */
+.app-bar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+.keurig-image {
+  width: 175px;
+  height: 30px;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+
+.search {
+  background-color: #f3f3f3;
+  width: 600px;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-left: 150px;
+  display: flex;
+}
+
+.search-logo {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.search-title {
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+.shipping {
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: 45px;
+  margin-left: 150px;
+}
+
+.profile-icon {
+  width: 22px;
+  height: 30px;
+  margin-top: 38px;
+  margin-left: 48px;
+}
+
+.keurig-cart {
+  width: 30px;
+  height: 30px;
+  margin-top: 38px;
+  margin-left: 33px;
+}
+
+/* navigation bar */
+nav {
+  width: 100%;
+  height: 50px;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
+  margin-left: 40px;
+}
+
+/* coffee maker's header */
+.coffee-makers {
+  width: 1189px;
+  height: 210px;
+  background-image: url("/images/banner.webp");
+  margin-left: 125px;
+}
+
+.coffee-subtitle {
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.coffee-title {
+  color: white;
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* filters */
+.filters-div {
+  display: flex;
+}
+
+.first-filter {
+  border: 2px solid #999999;
+  border-radius: 3px;
+  width: 128px;
+  height: 50px;
+  margin-left: 140px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.filter {
+  border: 2px solid #999999;
+  border-radius: 3px;
+  width: 128px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.filter-title {
+  color: #999999;
+  font-size: 15px;
+  font-weight: lighter;
+  padding-left: 12px;
+  padding-top: 15px;
+}
+
+.filter-reservoir {
+  border: 2px solid #999999;
+  border-radius: 3px;
+  width: 115px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.filter-color {
+  border: 2px solid #999999;
+  border-radius: 3px;
+  width: 90px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.filter-features {
+  border: 2px solid #999999;
+  border-radius: 3px;
+  width: 107px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.down-arrow {
+  width: 22px;
+  height: 22px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.sort-div {
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 230px;
+}
+
+.sort-by {
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.popularity-div {
+  display: flex;
+}
+
+.popularity {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.popularity-arrow {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.makers-div {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* coffee maker section */
+.coffee-maker-main {
+  width: 300px;
+  height: 450px;
+  margin-top: 40px;
+  margin-left: 90px;
+  box-shadow: rgb(210 210 210) 0px 5px 25px 0px;
+}
+
+.coffee-maker {
+  width: 300px;
+  height: 450px;
+  margin-top: 40px;
+  margin-left: 20px;
+  box-shadow: rgb(210 210 210) 0px 5px 25px 0px;
+}
+
+.coffee-image {
+  width: 261px;
+  height: 210px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.coffee-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.coffee-price {
+  font-weight: lighter;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.buy-now {
+  width: 233px;
+  height: 46px;
+  border: 2px solid rgb(241, 190, 72);
+  font-weight: bold;
+  background-color: white;
+  font-size: 14px;
+  margin-left: 35px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+/* sub footer */
+.sub-footer {
+  background-color: #3b2b2f;
+  width: 1250px;
+  height: 59px;
+  margin-top: 50px;
+  margin-left: 90px;
+  display: flex;
+}
+
+.map {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.find-store {
+  font-size: 16px;
+  font-weight: lighter;
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.follow-us {
+  font-size: 16px;
+  font-weight: lighter;
+  color: white;
+  margin-top: 20px;
+  margin-left: 550px;
+}
+
+.twitter {
+  width: 31px;
+  height: 31px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.facebook {
+  width: 21px;
+  height: 21px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.instagram {
+  width: 21px;
+  height: 21px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+}
+
+.shop-orders {
+  width: 300px;
+}
+
+.section {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-left: 110px;
+}
+
+.section-orders {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-left: 110px;
+}
+
+.sub-section-main {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-left: 110px;
+}
+
+.sub-section {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-left: 110px;
+}
+
+.helpful-info {
+  width: 400px;
+}
+
+.about-us {
+  width: 300px;
+}
+
+.email {
+  font-size: 14px;
+  margin-left: 110px;
+  width: 100px;
+}
+
+.sign-up {
+  border: 2px solid rgb(241, 190, 72);
+  font-weight: bold;
+  background-color: white;
+  font-size: 14px;
+  width: 100px;
+}
+
+.forms-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.forms-wrapper form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.forms-wrapper form h4 {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+.forms-wrapper form input {
+  width: 50%;
+  margin: 8px;
+  display: block;
+  background-color: #f3f3f3;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 999px;
+}
+
+.forms-wrapper form button {
+  width: 50%;
+  height: 46px;
+  border: 2px solid rgb(241, 190, 72);
+  font-weight: bold;
+  background-color: white;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.logout-button {
+  padding: 8px;
+  border: 2px solid rgb(241, 190, 72);
+  font-weight: bold;
+  background-color: white;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 32px;
+  margin-right: -20px;
+  margin-left: 8px;
+}

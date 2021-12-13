@@ -1,0 +1,99 @@
+<!-- app bar -->
+<div class="app-bar">
+    <a href="/#/home">
+        <img src="/images/keurig_ca_logo.svg" alt="Keurig Logo" class="keurig-image" />
+    </a>
+
+    <div class="search">
+        <img src="/images/search.png" alt="Search Logo" class="search-logo" />
+        <h6 class="search-title">Search hundreds of ways to brew...</h6>
+    </div>
+
+    <h5 class="shipping">FREE SHIPPING $29+</h5>
+    <img src="/images/profileIcon.svg" alt="Profile Icon" class="profile-icon" />
+    <a href="/#/cart"><img src="/images/keurig-cart.svg" alt="Keurig Cart" class="keurig-cart" /><span id="cart-count"></span></a>
+</div>
+
+<!-- navigation bar -->
+<nav>
+    <a href="#" class="nav-link">COFFEE, TEA & MORE</a>
+    <a href="#"class="nav-link">COFFEE MAKERS</a>
+    <a href="#"class="nav-link">ACCESSORIES</a>
+    <a href="#"class="nav-link">AUTO DELIVERY</a>
+    <a href="#"class="nav-link">GET STARTED</a>
+    <a href="#"class="nav-link">GIFT GUIDE</a>
+    <a href="#"class="nav-link">CUSTOMIZE</a>
+</nav>
+
+<div class="forms-wrapper">
+    <form id="login" onSubmit="return login()">
+        <h4>Login</h4>
+        <input placeholder="Email" type="text" name="email" />
+        <input placeholder="Password" type="password" name="password" />
+        <button>Login</button>
+    </form>
+
+    <form id="sign-up" onSubmit="return createAccount()">
+        <h4>Create Account</h4>
+        <input placeholder="Email" type="text" name="email" />
+        <input placeholder="Password" type="password" name="password" />
+        <input placeholder="Confirm Password" type="password" name="confirmPassword" />
+        <button>Create</button>
+    </form>
+</div>
+
+<!-- sub footer -->
+<div class="sub-footer">
+    <img src="/images/map.png" alt="Map Logo" class="map" />
+    <h2 class="find-store">Find a Store . Customer Support: 866-901-BREW(2739)</h2>
+    <h4 class="follow-us">Follow Us</h4>
+    <img src="/images/twitter.png" alt="Twitter Logo" class="twitter" />
+    <img src="/images/facebook.png" alt="Facebook Logo" class="facebook" />
+    <img src="/images/instagram.png" alt="Instagram Logo" class="instagram" />
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="shop-orders">
+        <h2 class="section">Shop</h2>
+        <h4 class="sub-section-main">Coffee Makers</h4>
+        <h4 class="sub-section">Beverages</h4>
+
+        <h2 class="section-orders">Orders</h2>
+        <h4 class="sub-section-main">Track Your Order</h4>
+        <h4 class="sub-section">Returns</h4>
+        <h4 class="sub-section">Auto Delivery Orders</h4>
+    </div>
+
+    <div class="helpful-info">
+        <h2 class="section">Helpful Info</h2>
+        <h4 class="sub-section-main">Register Your Appliance</h4>
+        <h4 class="sub-section">Support</h4>
+        <h4 class="sub-section">Product Recall</h4>
+        <h4 class="sub-section">Business Solution</h4>
+        <h4 class="sub-section">Site Map</h4>
+        <h4 class="sub-section">Contact Us</h4>
+        <h4 class="sub-section">CA Privacy Rights</h4>
+        <h4 class="sub-section">Do Not Sell My Personal Information</h4>
+    </div>
+
+    <div class="about-us">
+        <h2 class="section">About Us</h2>
+        <h4 class="sub-section-main">About Us</h4>
+        <h4 class="sub-section">News</h4>
+        <h4 class="sub-section">Careers</h4>
+        <h4 class="sub-section">Sustainability</h4>
+        <h4 class="sub-section">Rewards Program</h4>
+        <h4 class="sub-section">Accepted Payment</h4>
+    </div>
+
+    <div class="join">
+        <h2 class="section">Join Our Mailing List</h2>
+        <h4 class="sub-section-main">Stay up-to-date with the latest news<br> and new arrivals direct to your inbox.</h4>
+        <div class="input-button">
+            <input type="text" class="email" placeholder="Your Email">
+            <button class="sign-up">Sign Up</button>
+        </div>
+    </div>
+</footer>
+<script src="pages/login/login.js" />
